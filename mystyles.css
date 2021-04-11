@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* This section of styles applies to the top navigator bar */
+header  {
+    margin-top: 10px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style-type: none;
+    padding-right: 50px;
+    margin-top: 25px;
+
+}
+
+header ul li a  {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+} 
+header .btn-login  {
+    padding: 5px 15px;
+    margin-right: 20px;
+    width: 75px;
+    height: 40px;
+    background: #2F80ED;
+    color: white;
+}
+
+header .btn-login a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+header .btn-signup {
+    padding: 5px 10px;
+    width: 75px;
+    height: 40px;
+    border: 1px solid #2F80ED;;
+}
+header .btn-signup a {
+    color: #2F80ED;
+    font-family: 'Roboto', sans-serif;
+}
+.first-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.first-section h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 1px;
+}
+
+.first-section p  {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    color: #222222;
+}
+
+.first-section .input-box  {
+    width: 357px;
+    height: 54px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.first-section .input-btn  {
+    width: 113px;
+    height: 54px;
+    border: 1px solid black;
+    position:relative;
+    left: -5px;
+    top: -1.5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #2F80ED;
+    background-color: white;
+
+}
+
+.google-review  {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding-top: 130px;
+}
+.google-review .img {
+    position:relative;
+    top: -130px;
+}
+
+.google-review ul {
+    display: flex;
+    text-align: center;
+}
+
+.google-review ul li {
+    list-style-type: none;
+}
+
+.google-review p  {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14x;
+    text-align: center;
+    color: #222222;
+}
+
+
+.slide  {
+    position: relative;
+    width: 100%;
+    height: 851px;
+    background: linear-gradient(0deg, #F5F5F5, #F5F5F5), #FDFDFD;
+}
+
+.vector-slide  {
+    position: relative;
+    top: -852;
+    width: 100%;
+}
+
+.slide .row  {
+    position: relative;
+    top: 250px;
+    left: 10px;
+}
+
+.slide h4  {
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;    
+    text-align: center;
+    margin: 20px auto;
+}
+
+.slide p  {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.slide img  {
+    width: 106px;
+    height: 106px;
+    background: #DDDDDD;
+    border-radius: 31px;
+    margin-left: 100px;
+    margin-top: 30px;
+} 
+
+#learn-more {
+    position: relative;
+    top: -30px;
+    left: 430px;
+    height: 70px;
+    width: 416px;
+    background-color: #2F80ED;
+    border:1px solid #2F80ED;
+    
+}
+
+#trial {
+    height: 64px;
+    width: 303px;
+    position: relative;
+    top: 10px;
+    left: 480px;
+    border-radius: 2px;
+    padding: 20px, 40px, 20px, 40px;
+    background-color: #2F80ED;
+    
+}
+
+#learn-more p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+}
+
+
+#trial p    {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 18px;
+    color: white;
+
+}
+
+
+
+
+h3  {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.learn-text-box {
+    width: 600px; 
+    height: 81px; 
+    position: relative;
+    left: 400px;
+    margin-top: 30px;
+}
+
+.learn-text-box p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+
+.text-box  p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #222222;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.footer {
+    height: 216px;
+    width: 100%;
+    background: #F5F5F5;
+    margin-top: 100px;
+    padding: 40px;
+}
+
+.footer p   {
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.left   {
+    float: left;
+}
+.right  {
+    float: right;
+}
+.footer ul{
+    display: flex;
+}
+
+.footer ul li {
+    list-style-type: none;
+}
+
+.footer  ul li a {
+    padding: 5px;
+    font-family: Roboto;
+    text-decoration: solid;
+}
+
+.footer .btn-contact {
+    background-color: #2F80ED;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width:480px){
+    /*For Mobile devices */
+    body {
+        background-color: blue;
+
+    }
+}
+
+@media screen and (min-width: 481px) {
+    /* For iPads and Tablet devices: */
+    body {
+        background-color: red;
+    }
+  }
+
+@media  screen and (min-width:769px) {
+    /*For small screen laptops*/
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    /*For Desktop and large screens*/
+    body {
+        background-color: white;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    /* .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;} */
+}
