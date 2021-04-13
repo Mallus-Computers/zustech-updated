@@ -9,33 +9,36 @@
     <title>Zustech Debug page</title>
 </head>
 <body>
+    <div class="wrapper">
     <!--Top navigation bar section-->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <img  class="logo" src="./images/zustech-temp-logo.svg" alt="logo-image">
-                </div>
-                <div class="col-sm-6">
-                    <nav>
+    <div class="top-nav-wrapper">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3" id="column">
+                        <img  class="logo" src="./images/zustech-temp-logo.svg" alt="logo-image">
+                    </div>
+                    <div class="col-sm-6" id="column">
+                        <nav>
+                            <ul>
+                                <li><a href="#">WhyZustech</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Courses</a></li>
+                                <li><a href="#">Pricing</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-3" id="column">
                         <ul>
-                            <li><a href="#">WhyZustech</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Pricing</a></li>
+                            <li class="btn-login"><a href="#">Login</a></li>
+                            <li class="btn-signup"><a href="#">Signup</a></li>
                         </ul>
-                    </nav>
-                </div>
-                <div class="col-sm-3">
-                    <ul>
-                        <li class="btn-login"><a href="#">Login</a></li>
-                        <li class="btn-signup"><a href="#">Signup</a></li>
-                    </ul>
-                </div>
+                    </div>
 
+                </div>
             </div>
-        </div>
-    </header>
+        </header>
+    </div>
 
 <!--This could serve as my top banner section-->
     <div class="first-section">
@@ -210,15 +213,7 @@
         </div>
     </div>       
 
-
-
-
-
-
-
-
-    
-    
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 </body>
